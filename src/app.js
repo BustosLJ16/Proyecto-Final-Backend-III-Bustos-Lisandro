@@ -10,13 +10,13 @@ import swagger from './docs/swagger.js';
 
 // Configuracion de MongoDb
 mongoose.set("strictQuery", false);
-const app = express();
-const PORT = process.env.PORT || 8080;
-const connection = mongoose.connect(`mongodb://localhost:27017/adoptme`)
+const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/adoptme';
+const connection = mongoose.connect(MONGO_URI)
 .then(() => console.log('Conectado a MongoDB'))
 .catch(err => console.error('Error en la conexión a MongoDB:', err));
 
 // Configuración de la App
+const app = express();
 app.use(express.json());
 app.use(cookieParser());
 

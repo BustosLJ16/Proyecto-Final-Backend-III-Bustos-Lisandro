@@ -16,7 +16,7 @@ const options = {
       },
     ],
   },
-  apis: ['./src/test/**/*.js'], // ✅ asegurate que apunta a archivos .js, no a carpetas
+  apis: ['./src/routes/users.js'],
 };
 
 const swaggerSpec = swaggerJSDoc(options);
