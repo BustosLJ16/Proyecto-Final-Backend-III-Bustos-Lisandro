@@ -1,0 +1,59 @@
+# 🐾 Proyecto Final - CoderHouse Backend
+
+API RESTful para la gestión de usuarios, mascotas y adopciones, construida con Node.js, Express y MongoDB. Incluye autenticación JWT, documentación Swagger, tests funcionales, y contenedorización con Docker.
+
+---
+
+## ✅ Entregables Completados
+
+| Requisito                                                   | Estado |
+|-------------------------------------------------------------|--------|
+| Documentación Swagger del módulo `Users`                    | ✅     |
+| Tests funcionales de `adoption.router.js`                   | ✅     |
+| Dockerfile funcional y reproducible                         | ✅     |
+| Imagen subida a DockerHub                                   | ✅     |
+| README detallado con enlace DockerHub                       | ✅     |
+
+---
+
+## 📦 Tecnologías
+
+- Node.js + Express
+- MongoDB + Mongoose
+- Swagger (Documentación API)
+- Docker
+- JWT (Autenticación)
+- Jest + Supertest (Tests funcionales)
+- Multer (Carga de imágenes)
+- Arquitectura en capas + Repositorios + DTOs
+
+---
+
+## 📚 Documentación API (Swagger)
+
+> Accesible desde:  
+`GET /api-docs`  
+📎 [http://localhost:3000/api-docs](http://localhost:3000/api-docs)
+
+### ✅ Rutas documentadas
+
+- `Users` (✔ requerido por la rúbrica)
+- `Pets`
+- `Adoptions`
+- `Sessions`
+
+---
+
+## 🧪 Tests Funcionales
+
+Se desarrollaron **tests funcionales completos** para todos los endpoints del router `adoption.router.js`.
+
+- Casos de éxito (adopción correcta)
+- Casos de error (sin token, ID inválido, etc.)
+
+📁 Archivo: `tests/adoption.test.js`
+
+### Ejecutar los tests
+
+```bash
+npm test
