@@ -12,11 +12,11 @@ const options = {
     },
     servers: [
       {
-        url: 'http://localhost:8080', // Cambiá si usás otro puerto
+        url: 'http://localhost:3000', // Cambiá si usás otro puerto
       },
     ],
   },
-  apis: ['./src/routes/users.js'],
+  apis: ['./src/routes/users.router.js'],
 };
 
 const swaggerSpec = swaggerJSDoc(options);
