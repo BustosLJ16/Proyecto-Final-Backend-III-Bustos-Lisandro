@@ -5,7 +5,7 @@ import usersRouter from './routes/users.router.js';
 import petsRouter from './routes/pets.router.js';
 import adoptionsRouter from './routes/adoption.router.js';
 import sessionsRouter from './routes/sessions.router.js';
-import mocksRouter from './routes/mocks.router.js/mocks.routes.js';
+import mocksRouter from './routes/mocks.router/mocks.routes.js';
 import swagger from './docs/swagger.js';
 
 // Configuracion de MongoDb
