@@ -4,18 +4,6 @@ API RESTful para la gestión de usuarios, mascotas y adopciones, construida con 
 
 ---
 
-## ✅ Entregables Completados
-
-| Requisito                                                   | Estado |
-|-------------------------------------------------------------|--------|
-| Documentación Swagger del módulo `Users`                    | ✅     |
-| Tests funcionales de `adoption.router.js`                   | ✅     |
-| Dockerfile funcional y reproducible                         | ✅     |
-| Imagen subida a DockerHub                                   | ✅     |
-| README detallado con enlace DockerHub                       | ✅     |
-
----
-
 ## 📦 Tecnologías
 
 - Node.js + Express
