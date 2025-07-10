@@ -6,13 +6,13 @@ API RESTful para la gestión de usuarios, mascotas y adopciones, construida con 
 
 ## 📦 Tecnologías
 
-- Node.js + Express
-- MongoDB + Mongoose
-- Swagger (Documentación API)
-- Docker
-- JWT (Autenticación)
-- Jest + Supertest (Tests funcionales)
-- Multer (Carga de imágenes)
+- Node.js + Express  
+- MongoDB + Mongoose  
+- Swagger (Documentación API)  
+- Docker  
+- JWT (Autenticación)  
+- Jest + Supertest (Tests funcionales)  
+- Multer (Carga de imágenes)  
 - Arquitectura en capas + Repositorios + DTOs
 
 ---
@@ -25,9 +25,9 @@ API RESTful para la gestión de usuarios, mascotas y adopciones, construida con 
 
 ### ✅ Rutas documentadas
 
-- `Users` (✔ requerido por la rúbrica)
-- `Pets`
-- `Adoptions`
+- `Users`  
+- `Pets`  
+- `Adoptions`  
 - `Sessions`
 
 ---
@@ -36,7 +36,7 @@ API RESTful para la gestión de usuarios, mascotas y adopciones, construida con 
 
 Se desarrollaron **tests funcionales completos** para todos los endpoints del router `adoption.router.js`.
 
-- Casos de éxito (adopción correcta)
+- Casos de éxito (adopción correcta)  
 - Casos de error (sin token, ID inválido, etc.)
 
 📁 Archivo: `tests/adoption.test.js`

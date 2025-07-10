@@ -1,25 +1,15 @@
-version: "3.9"
-
 services:
   backend:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    container_name: adoptme-backend
+    image: bustoslj/coderhouse-backend.iii-entrega-final:latest
     ports:
-      - "3000:3000"  # host:container
+      - "3000:3000"
     environment:
       - MONGO_URI=mongodb://mongo:27017/adoptme
-    volumes:
-      - .:/app
-      - /app/node_modules
     depends_on:
       - mongo
-    command: npm start
 
   mongo:
     image: mongo:6
-    container_name: adoptme-mongo
     ports:
       - "27017:27017"
     volumes:
