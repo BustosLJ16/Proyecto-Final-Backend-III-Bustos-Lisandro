@@ -41,6 +41,10 @@ Se desarrollaron **tests funcionales completos** para todos los endpoints del ro
 
 📁 Archivo: `tests/adoption.test.js`
 
+### Nota importante sobre los tests
+
+Antes de ejecutar los tests, asegurarse que los IDs usados en los mismos existan en la base de datos y que la mascota asociada **no esté adoptada**. De lo contrario, algunos tests podrían fallar.
+
 ### Ejecutar los tests
 
 ```bash
