@@ -49,3 +49,9 @@ Antes de ejecutar los tests, asegurarse que los IDs usados en los mismos existan
 
 ```bash
 npm test
+
+---
+
+### Imagen en DockerHub
+
+🔗 https://hub.docker.com/r/bustoslj/coderhouse-backend.iii-entrega-final
